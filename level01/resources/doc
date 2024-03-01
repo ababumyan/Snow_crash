@@ -1,0 +1,5 @@
+1- "cat /etc/passwd | grep flag01 => flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash"
+2 in your pc download john the repier JTR and save "42hDRfypTqqnw" in tmp file and run "john --show filename "it will give you the dehashed password
+output : abcdefg
+3- su flag01 password = abcdefg
+4- getflag =>  f2av5il02puano7naaf6adaaf

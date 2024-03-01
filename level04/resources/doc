@@ -1,0 +1,3 @@
+1-open the level04.pl you will see it open a web server in 4747 port and expecting a parameter from passed url named x and it print the x;
+2- open the browser and go to localhost:4747 and change the endpoint to /?x=`getflag`
+3- ?x means argument x to pass getflag is the value and `` in bash means execute as a command

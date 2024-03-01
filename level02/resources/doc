@@ -1,0 +1,5 @@
+1- move the level02.pcap to your PC with SCP and open it with wireshark the if you see the segment the user tried to login many time but only one time was successfull when you follow to instructions of that command you will see user enter in terminal following string
+Password: ft_wandr...NDRel.L0L
+2- hex dump it and you will see all the dotes is delete button key so the password is
+ft_waNDReL0L
+3-getflag => kooda2puivaav1idi4f57q8iq

@@ -1,0 +1,6 @@
+1- ls -l /usr/sbin | grep flag00 => john
+2- whereis john => /usr/sbin/john
+3- cat /usr/sbin/john =>cdiiddwpgswtgt
+4- ROT11 "cdiiddwpgswtgt" => nottoohardhere
+5- su flag00 => password = nottoohardhere
+6 - getflag => x24ti5gi3x0ol2eh4esiuxias

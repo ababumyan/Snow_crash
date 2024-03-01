@@ -1,0 +1,13 @@
+1-when you logged in you will see new mail and inside of you mailbox it this text
+*/2 * * * * su -c "sh /usr/sbin/openarenaserver" - flag05
+it's mean every 2 minutes it will run that script so open it
+#!/bin/sh
+
+for i in /opt/openarenaserver/* ; do
+        (ulimit -t 5; bash -x "$i")
+        rm -f "$i"
+done
+
+as the script it run all the bashscript files located in that directory and remove them so in this case you can write your script using getflag > /tmp/file
+
+2- after 2 mins open /tmp/file => Check flag.Here is your token : viuaaale9huek52boumoomioc

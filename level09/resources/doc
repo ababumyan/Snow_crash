@@ -1,0 +1,3 @@
+If you try to run the execution ./level09 and test it with many letter combinations you will see
+its increment avery symbols as their index like abc => a index is 0 so a + 0 b index is 1 so b + 1
+after that if you open the tocken file you will see a string which is already changed by that execution so you have to decode it by reverse way decrementing the symbols by index

@@ -1,0 +1,6 @@
+1- open the instuctions of ./level03 with ltrace
+2- you will see its using echo command 
+3- go to tmp file create a bashscript named echo and write getflag command there 
+4- export the path to PATH=/tmp:/...path 
+5- chmod +x /tmp/echo
+5-run the execution =>  Check flag.Here is your token : qi0maab88jeaj46qoumi7maus
